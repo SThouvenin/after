@@ -12,7 +12,7 @@ body {
   border: 0;
 }
 
-#logo-img {
+#logo {
   background-image: url('../image/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
