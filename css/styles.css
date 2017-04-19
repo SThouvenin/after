@@ -46,7 +46,7 @@ body {
   margin-top: 15px;
 }
 
-.navbar-brand p span {
+.navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
 
@@ -77,3 +77,13 @@ padding-bottom: 0;
   text-align: right;
   padding-right: 15px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*END HEADER*/
