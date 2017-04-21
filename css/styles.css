@@ -49,7 +49,6 @@ body {
   color: #951c49;
   text-align:center;
 }
-
 #nav-list a:hover {
   background: #E7E7E7;
 }
@@ -59,7 +58,6 @@ body {
 #phone {
   margin-top:5px;
 }
-
 #phone a{ /*phone number */
 text-align: right;
 padding-bottom: 0;
@@ -69,16 +67,46 @@ padding-bottom: 0;
   text-align: right;
   padding-right: 15px;
 }
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
-
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 /*END HEADER*/
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px; /* separates from the tiles right above it */
+  padding-top: 35px;
+  padding-bottom:30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2; /* adjusts space between lines */
+}
+#hours > span, #address > span { /*hours and address became larger */
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END FOOTER */
+
 /* Home Page */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
@@ -200,6 +228,18 @@ padding-bottom: 0;
   }
   /* End Header */
 
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) { /* 3rd section - testimonials) */
+    margin-bottom: 0; /*margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
   /* Home Page */
   .container .jumbotron {
     margin-top: 30px;
@@ -208,10 +248,9 @@ padding-bottom: 0;
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
-    
+
   }
 }
-
 
 /******* Super extra small devices Only! (eg - iPhone 4) ***/
 @media (max-width: 479px) {
@@ -221,7 +260,10 @@ padding-bottom: 0;
     font-size: 6vw;
   }
 
+
   /* End Header */
+
+
   /* Home Page */
   #menu-tile, #specials-tile {
     width: 280px;
